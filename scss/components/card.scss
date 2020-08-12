@@ -1,0 +1,26 @@
+.card-with-image {
+  position: relative;
+  margin: 10px 10px;
+  border-radius: 0.5rem;
+  width: 350px;
+  height: 340px;
+  overflow: hidden;
+
+  .card-with-image__overlay {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

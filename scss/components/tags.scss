@@ -1,0 +1,17 @@
+.tag {
+  border-radius: 1.25rem;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  max-width: 2.5rem;
+  min-height: 1rem;
+  text-align: center;
+
+  &.tag-primary {
+    background-color: $base-color;
+    color: white;
+  }
+}
